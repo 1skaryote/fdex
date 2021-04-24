@@ -6,6 +6,7 @@
             <div class="__user-control">
 
                  <b-icon
+                    v-if="isAdmin"
                     @click.native="toggleUserSettingsModal"
                     class="__logout"
                     pack="fas"
